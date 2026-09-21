@@ -1,0 +1,65 @@
+# Build trees
+build/
+build-*/
+out/
+cmake-build-*/
+install/
+prefix/
+staging/
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+CMakeUserPresets.json
+
+# Compiler / linker artefacts
+*.obj
+*.o
+*.lo
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.ipdb
+*.iobj
+*.gcda
+*.gcno
+*.gcov
+
+# Test / proof debris
+Testing/
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Crash dumps, at the repository root only. These are anchored so that a DIRECTORY named
+# "core" anywhere in the tree (for example src/core) is never ignored.
+/core
+/core.*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+
+# Local scratch
+scratch/
+tmp/

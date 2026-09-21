@@ -1,0 +1,9 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+include("${CMAKE_CURRENT_LIST_DIR}/SwitchFailoverFabricTargets.cmake")
+
+check_required_components(SwitchFailoverFabric)
+
+set(SwitchFailoverFabric_VERSION "@PROJECT_VERSION@")
